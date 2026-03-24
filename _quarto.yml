@@ -1,0 +1,62 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "<Your Name> Personal Website"
+  search:
+    location: navbar
+    type: overlay
+  page-navigation: true
+
+  navbar:
+    pinned: true
+    collapse: false
+    background: primary
+    search: true
+    right:
+      - text: "Home"
+        href: index.qmd
+      - text: "About Me"
+        href: aboutme.qmd
+      - text: "Projects"
+        href: proj.qmd
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: true
+    toc-location: right
+    header-includes:
+      - |
+        <style>
+          /* Full-width sticky header */
+          .sticky-header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 0px 0;
+            font-size: 0em;
+            font-weight: bold;
+            z-index: 1000;
+            margin: 0;
+            box-shadow: 0 0px 0px rgba(0, 0, 0, 0.2);
+          }
+          body {
+            margin-top: 0px;
+          }
+        </style>
+        <div class="sticky-header">
+          &lt;Your Name&gt; Personal Website
+        </div>
+
+site-url: "https://<yourusername>.github.io/<repositoryname>/<name your link>"
+repo-url: "https://github.com/<yourusername>/<repositoryname>"
+repo-actions: [edit, issue]
+
+editor: visual

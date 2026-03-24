@@ -1,0 +1,10 @@
+---
+title: "✏️ Your Name"
+---
+
+Welcome to my personal website! Here you will find information about me and
+my work. Feel free to explore using the navigation bar above.
+
+- Visit the [About Me](aboutme.qmd) tab to learn more about my background and
+  how to get in touch.
+- Visit the [Projects](proj.qmd) tab to see examples of my work.
