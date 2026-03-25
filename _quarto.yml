@@ -55,7 +55,7 @@ format:
           &lt;Your Name&gt; Personal Website
         </div>
 
-site-url: "https://<yourusername>.github.io/<repositoryname>/<name your link>"
+site-url: "https://<yourusername>.github.io/<repositoryname>/"
 repo-url: "https://github.com/<yourusername>/<repositoryname>"
 repo-actions: [edit, issue]
 
